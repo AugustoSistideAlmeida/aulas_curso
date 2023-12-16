@@ -7,5 +7,28 @@
 </head>
 <body>
     <h1>Olá mundo!!!</h1>
+    <h2>Revisão da aula de imagens interativas.</h2>
+    <p>É preciso alinhar varios tamanhos de imagens pensando na experiência do usuário do site. <br>
+    Para que a tela não precise ficar sendo rolada para o lado, estaremos fazendo uso de imagens de 3 tamanhos diferentes. 
+</p>
+<ol>
+    <li>p-300x300</li>
+    <li>m-700x700</li>
+    <li>g-1000x1000</li>
+</ol>
+<br>
+<p>Quando a resolução for acima de 1050, será carregada a imagem g, abaixo disso as imagens vão se adaptando ao tamanho de tela conforme estipulado na tag picture</p>
+<h2>picture</h2>
+<picture>
+    <source media="(max-width:750px)" srcset="imagem_p.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagem_m.png" type="image/png">
+    <img src="imagem_g.png" alt="imagem flexivel">
+</picture>
+<h2>Audios</h2>
+<p>uso da tag para reprodução de audios em seu site.</p>
+<audio src="Icelandic Arpeggios - DivKid.mp3" controls></audio>
+<audio preload="auto" autoplay>
+    <source src="Icelandic Arpeggios - DivKid.mp3">
+</audio>
 </body>
 </html>
