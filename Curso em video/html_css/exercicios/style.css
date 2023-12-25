@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-color:lightgoldenrodyellow;
+}
+h1{
+    color: rgb(39, 4, 39);
+    background-color: darkgoldenrod;
+}
+p{
+    color: rgb(51, 77, 77);
+}
