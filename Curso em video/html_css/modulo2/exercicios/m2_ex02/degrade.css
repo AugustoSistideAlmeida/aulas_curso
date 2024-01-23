@@ -4,20 +4,20 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, rgb(250, 133, 129),60%, rgb(250, 220, 196));
+    background-image: linear-gradient(to bottom, rgb(129, 151, 250),60%, rgb(52, 51, 66));
     background-attachment: fixed;
 }
 main{
-    background-color: rgb(255, 246, 246);
+    background-color: rgb(246, 253, 255);
     width: 600px;
     padding: 10px;
     margin: auto;
     border-radius: 3%;
-    box-shadow: 5px 5px 17px rgba(182, 135, 135, 0.658);
+    box-shadow: 5px 5px 17px rgba(135, 142, 182, 0.658);
 }
 
 h1{
-    color: rgb(87, 4, 4);
+    color: rgb(26, 4, 87);
     text-shadow: 2px 2px 2px rgba(48, 2, 2, 0.425);
 }
 
@@ -27,5 +27,5 @@ p{
 }
 
 h2{
-    color: rgb(196, 50, 50);
+    color: rgb(82, 50, 196);
 }
