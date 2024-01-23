@@ -1,13 +1,19 @@
 @charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, rgb(190, 237, 255),40%, rgb(253, 253, 253));
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(43, 70, 77);
+    text-shadow: 2px 2px 3px rgb(246, 231, 248);
 }
 
 strong{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;    
 }
